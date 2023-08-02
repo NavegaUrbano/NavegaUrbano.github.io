@@ -1,0 +1,68 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, yellow, orange);
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos del contenedor del formulario */
+.login-container {
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos del logo */
+.logo {
+  width: 200px; /* Ajusta el tamaño de la imagen según tus necesidades */
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Estilos del grupo de formulario */
+.form-group {
+  margin-bottom: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Dos columnas iguales */
+  align-items: center;
+}
+
+.form-group label {
+  margin-right: 10px;
+  display: block;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+/* Animación de aparecer la letra al inicio */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animated {
+  animation: fadeIn 1.5s ease-in;
+}

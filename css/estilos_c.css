@@ -1,0 +1,48 @@
+/* Estilos personalizados */
+
+/* Fondo con degradado amarillo y naranja */
+body {
+    font-family: "Arial", sans-serif;
+    color: #333;
+    background: linear-gradient(135deg, #FFA500, #FFD700);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #c0b625;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f5c423;
+}
+
+tr:nth-child(even) {
+    background-color: #d69c1d;
+}
+
+/* Animación para la tabla */
+@keyframes fadeInTable {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+table {
+    animation: fadeInTable 1s ease-in-out;
+}
+
+/* Fuente formal */
+body {
+    font-family: "Georgia", serif;
+}
+
+/* Otros estilos personalizados que desees agregar */
